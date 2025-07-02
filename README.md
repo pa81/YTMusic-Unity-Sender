@@ -1,5 +1,6 @@
 # YTMusic-Unity-Sender
-YT Music To Unity Editor GUI
+YT Music To Unity Editor GUI<br/>
+csファイルを取り扱うので、気になる方は各自ウイルスチェックをするなどをしてください。
 # 画像
 [<img width="1068" alt="Image" src="https://github.com/user-attachments/assets/2fca43f9-17ec-4bd3-af71-bc991f5569b9" />]
 # HOW TO USE 
