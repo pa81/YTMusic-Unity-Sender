@@ -1,5 +1,7 @@
 # YTMusic-Unity-Sender
 YT Music To Unity Editor GUI
+#画像
+<img width="1068" alt="Image" src="https://github.com/user-attachments/assets/2fca43f9-17ec-4bd3-af71-bc991f5569b9" />
 # HOW TO USE 
 1.拡張機能(YTMusic-Unity-Sender1.0.0.xpi)をFireFox追加<br/>
 2.UnityPackage又は、csファイルをUnityにインポート<br/>
