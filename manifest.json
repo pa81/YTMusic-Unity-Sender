@@ -5,10 +5,7 @@
   "description": "YT Music To Unity Editor GUI",
   "author": "HuHuShop",
   "homepage_url": "https://github.com/pa81/YTMusic-Unity-Sender",
-  "icons": {
-    "48": "icons/icon-48.png",
-    "128": "icons/icon128x.png"
-  },
+  
   "permissions": [
     "tabs",
     "http://localhost:8080/"
