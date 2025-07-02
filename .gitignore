@@ -1,0 +1,4 @@
+# .gitignore
+*.zip
+/dist
+/node_modules
