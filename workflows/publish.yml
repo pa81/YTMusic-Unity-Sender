@@ -1,0 +1,36 @@
+# .github/workflows/publish.yml
+name: Publish to Firefox Add-on Store
+
+on:
+  push:
+    tags:
+      - 'v*' # Trigger this workflow when a tag like v1.0, v1.2.3 is pushed
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Get extension version
+        id: get_version
+        run: echo "VERSION=$(node -p -e 'require("./package.json").version')" >> $GITHUB_ENV
+
+      - name: Build the extension
+        run: |
+          mkdir -p dist
+          zip -r dist/YTMusic-Unity-Sender-builded.zip . -x ".git/*" ".github/*" "dist/*" "node_modules/*" "*.zip"
+
+      - name: Submit to Firefox Add-on Store
+        uses: web-ext/action-web-ext@v1
+        with:
+          source-dir: ./
+          # The following are stored as encrypted secrets in your repository settings
+          amo-jwt-issuer: ${{ secrets.AMO_JWT_ISSUER }}
+          amo-jwt-secret: ${{ secrets.AMO_JWT_SECRET }}
