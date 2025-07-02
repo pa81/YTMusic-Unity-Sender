@@ -12,4 +12,5 @@ CSファイルがウイルスか気になる方向け→
 https://online273.drweb.com/cache/?i=6372e3a01043f3ac4a074adc324ca092
 # 既知の問題
 [<img width="230" alt="{B9891FFF-12BB-41F8-AB71-A93E33DFF202}" src="https://github.com/user-attachments/assets/abe1b1a1-2ccf-42a0-9ce0-0d9a62c51cc6" />]<br>
-このモード時に時間が正しく同期されない
+このUiモード時に時間が正しく同期されない<br/>
+まれにサムネイルが同期されないことがある。
