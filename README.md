@@ -6,5 +6,5 @@ YT Music To Unity Editor GUI
 3.https://music.youtube.com で曲を聴く。終わり！閉廷！…以上！皆解散！
 # license
 MITライセンスです。
-CSファイルがウイルスか気になる方向け↓
+CSファイルがウイルスか気になる方向け→
 https://online273.drweb.com/cache/?i=6372e3a01043f3ac4a074adc324ca092
